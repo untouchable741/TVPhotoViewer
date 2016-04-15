@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97664F671CC14272007BF90D /* TVPhotoAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97664F641CC14272007BF90D /* TVPhotoAnimator.swift */; };
+		97664F681CC14272007BF90D /* TVPhotoViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97664F651CC14272007BF90D /* TVPhotoViewerController.swift */; };
+		97664F691CC14272007BF90D /* TVPhotoViewerWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97664F661CC14272007BF90D /* TVPhotoViewerWireframe.swift */; };
 		97DFC4BF1CC13AD800FD3374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFC4BE1CC13AD800FD3374 /* AppDelegate.swift */; };
 		97DFC4C11CC13AD800FD3374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFC4C01CC13AD800FD3374 /* ViewController.swift */; };
 		97DFC4C41CC13AD800FD3374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DFC4C21CC13AD800FD3374 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97664F641CC14272007BF90D /* TVPhotoAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoAnimator.swift; sourceTree = "<group>"; };
+		97664F651CC14272007BF90D /* TVPhotoViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoViewerController.swift; sourceTree = "<group>"; };
+		97664F661CC14272007BF90D /* TVPhotoViewerWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoViewerWireframe.swift; sourceTree = "<group>"; };
 		97DFC4BB1CC13AD800FD3374 /* TVPhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVPhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DFC4BE1CC13AD800FD3374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97DFC4C01CC13AD800FD3374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,12 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		97664F4B1CC13E28007BF90D /* TVPhotoViewerController */ = {
+		97664F631CC14272007BF90D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				97664F641CC14272007BF90D /* TVPhotoAnimator.swift */,
+				97664F651CC14272007BF90D /* TVPhotoViewerController.swift */,
+				97664F661CC14272007BF90D /* TVPhotoViewerWireframe.swift */,
 			);
-			name = TVPhotoViewerController;
-			path = Source;
+			name = Source;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 		97DFC4B21CC13AD800FD3374 = {
@@ -105,7 +114,7 @@
 		97DFC4BD1CC13AD800FD3374 /* TVPhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
-				97664F4B1CC13E28007BF90D /* TVPhotoViewerController */,
+				97664F631CC14272007BF90D /* Source */,
 				97DFC4BE1CC13AD800FD3374 /* AppDelegate.swift */,
 				97DFC4C01CC13AD800FD3374 /* ViewController.swift */,
 				97DFC4C21CC13AD800FD3374 /* Main.storyboard */,
@@ -266,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				97DFC4C11CC13AD800FD3374 /* ViewController.swift in Sources */,
+				97664F671CC14272007BF90D /* TVPhotoAnimator.swift in Sources */,
+				97664F681CC14272007BF90D /* TVPhotoViewerController.swift in Sources */,
 				97DFC4BF1CC13AD800FD3374 /* AppDelegate.swift in Sources */,
+				97664F691CC14272007BF90D /* TVPhotoViewerWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

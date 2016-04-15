@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.authors            = { "Tai Vuong" => "vhuutai@gmail.com" }
   s.social_media_url   = "http://twitter.com/Tai Vuong"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/untouchable741/TVPhotoViewer.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/untouchable741/TVPhotoViewer.git", :branch => 'master' }
 
   s.source_files  = "Source/*.{h,m}"
   s.dependency "Alamofire", "~> 3.3.1"
