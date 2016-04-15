@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97DFC4BF1CC13AD800FD3374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFC4BE1CC13AD800FD3374 /* AppDelegate.swift */; };
+		97DFC4C11CC13AD800FD3374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFC4C01CC13AD800FD3374 /* ViewController.swift */; };
+		97DFC4C41CC13AD800FD3374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DFC4C21CC13AD800FD3374 /* Main.storyboard */; };
+		97DFC4C61CC13AD800FD3374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97DFC4C51CC13AD800FD3374 /* Assets.xcassets */; };
+		97DFC4C91CC13AD800FD3374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DFC4C71CC13AD800FD3374 /* LaunchScreen.storyboard */; };
+		97DFC4D41CC13AD800FD3374 /* TVPhotoViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFC4D31CC13AD800FD3374 /* TVPhotoViewerTests.swift */; };
+		97DFC4DF1CC13AD800FD3374 /* TVPhotoViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFC4DE1CC13AD800FD3374 /* TVPhotoViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97DFC4D01CC13AD800FD3374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97DFC4B31CC13AD800FD3374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97DFC4BA1CC13AD800FD3374;
+			remoteInfo = TVPhotoViewer;
+		};
+		97DFC4DB1CC13AD800FD3374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97DFC4B31CC13AD800FD3374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97DFC4BA1CC13AD800FD3374;
+			remoteInfo = TVPhotoViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97DFC4BB1CC13AD800FD3374 /* TVPhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVPhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DFC4BE1CC13AD800FD3374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97DFC4C01CC13AD800FD3374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97DFC4C31CC13AD800FD3374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97DFC4C51CC13AD800FD3374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97DFC4C81CC13AD800FD3374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97DFC4CA1CC13AD800FD3374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97DFC4CF1CC13AD800FD3374 /* TVPhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVPhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DFC4D31CC13AD800FD3374 /* TVPhotoViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVPhotoViewerTests.swift; sourceTree = "<group>"; };
+		97DFC4D51CC13AD800FD3374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97DFC4DA1CC13AD800FD3374 /* TVPhotoViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVPhotoViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DFC4DE1CC13AD800FD3374 /* TVPhotoViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVPhotoViewerUITests.swift; sourceTree = "<group>"; };
+		97DFC4E01CC13AD800FD3374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97DFC4B81CC13AD800FD3374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DFC4CC1CC13AD800FD3374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DFC4D71CC13AD800FD3374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97664F4B1CC13E28007BF90D /* TVPhotoViewerController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TVPhotoViewerController;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		97DFC4B21CC13AD800FD3374 = {
+			isa = PBXGroup;
+			children = (
+				97DFC4BD1CC13AD800FD3374 /* TVPhotoViewer */,
+				97DFC4D21CC13AD800FD3374 /* TVPhotoViewerTests */,
+				97DFC4DD1CC13AD800FD3374 /* TVPhotoViewerUITests */,
+				97DFC4BC1CC13AD800FD3374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97DFC4BC1CC13AD800FD3374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97DFC4BB1CC13AD800FD3374 /* TVPhotoViewer.app */,
+				97DFC4CF1CC13AD800FD3374 /* TVPhotoViewerTests.xctest */,
+				97DFC4DA1CC13AD800FD3374 /* TVPhotoViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97DFC4BD1CC13AD800FD3374 /* TVPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				97664F4B1CC13E28007BF90D /* TVPhotoViewerController */,
+				97DFC4BE1CC13AD800FD3374 /* AppDelegate.swift */,
+				97DFC4C01CC13AD800FD3374 /* ViewController.swift */,
+				97DFC4C21CC13AD800FD3374 /* Main.storyboard */,
+				97DFC4C51CC13AD800FD3374 /* Assets.xcassets */,
+				97DFC4C71CC13AD800FD3374 /* LaunchScreen.storyboard */,
+				97DFC4CA1CC13AD800FD3374 /* Info.plist */,
+			);
+			path = TVPhotoViewer;
+			sourceTree = "<group>";
+		};
+		97DFC4D21CC13AD800FD3374 /* TVPhotoViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				97DFC4D31CC13AD800FD3374 /* TVPhotoViewerTests.swift */,
+				97DFC4D51CC13AD800FD3374 /* Info.plist */,
+			);
+			path = TVPhotoViewerTests;
+			sourceTree = "<group>";
+		};
+		97DFC4DD1CC13AD800FD3374 /* TVPhotoViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97DFC4DE1CC13AD800FD3374 /* TVPhotoViewerUITests.swift */,
+				97DFC4E01CC13AD800FD3374 /* Info.plist */,
+			);
+			path = TVPhotoViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97DFC4BA1CC13AD800FD3374 /* TVPhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97DFC4E31CC13AD800FD3374 /* Build configuration list for PBXNativeTarget "TVPhotoViewer" */;
+			buildPhases = (
+				97DFC4B71CC13AD800FD3374 /* Sources */,
+				97DFC4B81CC13AD800FD3374 /* Frameworks */,
+				97DFC4B91CC13AD800FD3374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVPhotoViewer;
+			productName = TVPhotoViewer;
+			productReference = 97DFC4BB1CC13AD800FD3374 /* TVPhotoViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97DFC4CE1CC13AD800FD3374 /* TVPhotoViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97DFC4E61CC13AD800FD3374 /* Build configuration list for PBXNativeTarget "TVPhotoViewerTests" */;
+			buildPhases = (
+				97DFC4CB1CC13AD800FD3374 /* Sources */,
+				97DFC4CC1CC13AD800FD3374 /* Frameworks */,
+				97DFC4CD1CC13AD800FD3374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97DFC4D11CC13AD800FD3374 /* PBXTargetDependency */,
+			);
+			name = TVPhotoViewerTests;
+			productName = TVPhotoViewerTests;
+			productReference = 97DFC4CF1CC13AD800FD3374 /* TVPhotoViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97DFC4D91CC13AD800FD3374 /* TVPhotoViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97DFC4E91CC13AD800FD3374 /* Build configuration list for PBXNativeTarget "TVPhotoViewerUITests" */;
+			buildPhases = (
+				97DFC4D61CC13AD800FD3374 /* Sources */,
+				97DFC4D71CC13AD800FD3374 /* Frameworks */,
+				97DFC4D81CC13AD800FD3374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97DFC4DC1CC13AD800FD3374 /* PBXTargetDependency */,
+			);
+			name = TVPhotoViewerUITests;
+			productName = TVPhotoViewerUITests;
+			productReference = 97DFC4DA1CC13AD800FD3374 /* TVPhotoViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97DFC4B31CC13AD800FD3374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tai Vuong";
+				TargetAttributes = {
+					97DFC4BA1CC13AD800FD3374 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					97DFC4CE1CC13AD800FD3374 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 97DFC4BA1CC13AD800FD3374;
+					};
+					97DFC4D91CC13AD800FD3374 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 97DFC4BA1CC13AD800FD3374;
+					};
+				};
+			};
+			buildConfigurationList = 97DFC4B61CC13AD800FD3374 /* Build configuration list for PBXProject "TVPhotoViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97DFC4B21CC13AD800FD3374;
+			productRefGroup = 97DFC4BC1CC13AD800FD3374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97DFC4BA1CC13AD800FD3374 /* TVPhotoViewer */,
+				97DFC4CE1CC13AD800FD3374 /* TVPhotoViewerTests */,
+				97DFC4D91CC13AD800FD3374 /* TVPhotoViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97DFC4B91CC13AD800FD3374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DFC4C91CC13AD800FD3374 /* LaunchScreen.storyboard in Resources */,
+				97DFC4C61CC13AD800FD3374 /* Assets.xcassets in Resources */,
+				97DFC4C41CC13AD800FD3374 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DFC4CD1CC13AD800FD3374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DFC4D81CC13AD800FD3374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97DFC4B71CC13AD800FD3374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DFC4C11CC13AD800FD3374 /* ViewController.swift in Sources */,
+				97DFC4BF1CC13AD800FD3374 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DFC4CB1CC13AD800FD3374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DFC4D41CC13AD800FD3374 /* TVPhotoViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DFC4D61CC13AD800FD3374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DFC4DF1CC13AD800FD3374 /* TVPhotoViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97DFC4D11CC13AD800FD3374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97DFC4BA1CC13AD800FD3374 /* TVPhotoViewer */;
+			targetProxy = 97DFC4D01CC13AD800FD3374 /* PBXContainerItemProxy */;
+		};
+		97DFC4DC1CC13AD800FD3374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97DFC4BA1CC13AD800FD3374 /* TVPhotoViewer */;
+			targetProxy = 97DFC4DB1CC13AD800FD3374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97DFC4C21CC13AD800FD3374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97DFC4C31CC13AD800FD3374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97DFC4C71CC13AD800FD3374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97DFC4C81CC13AD800FD3374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97DFC4E11CC13AD800FD3374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97DFC4E21CC13AD800FD3374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97DFC4E41CC13AD800FD3374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TVPhotoViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tai-Vuong.TVPhotoViewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97DFC4E51CC13AD800FD3374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TVPhotoViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tai-Vuong.TVPhotoViewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97DFC4E71CC13AD800FD3374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TVPhotoViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tai-Vuong.TVPhotoViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVPhotoViewer.app/TVPhotoViewer";
+			};
+			name = Debug;
+		};
+		97DFC4E81CC13AD800FD3374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TVPhotoViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tai-Vuong.TVPhotoViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVPhotoViewer.app/TVPhotoViewer";
+			};
+			name = Release;
+		};
+		97DFC4EA1CC13AD800FD3374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TVPhotoViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tai-Vuong.TVPhotoViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TVPhotoViewer;
+			};
+			name = Debug;
+		};
+		97DFC4EB1CC13AD800FD3374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TVPhotoViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tai-Vuong.TVPhotoViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TVPhotoViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97DFC4B61CC13AD800FD3374 /* Build configuration list for PBXProject "TVPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97DFC4E11CC13AD800FD3374 /* Debug */,
+				97DFC4E21CC13AD800FD3374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97DFC4E31CC13AD800FD3374 /* Build configuration list for PBXNativeTarget "TVPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97DFC4E41CC13AD800FD3374 /* Debug */,
+				97DFC4E51CC13AD800FD3374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97DFC4E61CC13AD800FD3374 /* Build configuration list for PBXNativeTarget "TVPhotoViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97DFC4E71CC13AD800FD3374 /* Debug */,
+				97DFC4E81CC13AD800FD3374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97DFC4E91CC13AD800FD3374 /* Build configuration list for PBXNativeTarget "TVPhotoViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97DFC4EA1CC13AD800FD3374 /* Debug */,
+				97DFC4EB1CC13AD800FD3374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97DFC4B31CC13AD800FD3374 /* Project object */;
+}
