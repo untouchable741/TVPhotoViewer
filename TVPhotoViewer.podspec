@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/untouchable741/TVPhotoViewer.git", :branch => 'master' }
 
-  s.source_files  = "Source/*.{h,m}"
+  s.source_files  = "Source/*.{h,m,swift}"
   s.dependency "Alamofire", "~> 3.3.1"
 end
