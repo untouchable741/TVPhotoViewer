@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9742F0CF1CC1524F00C29B45 /* TVPhotoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742F0CE1CC1524F00C29B45 /* TVPhotoPage.swift */; };
+		9742F0D71CC158AA00C29B45 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9742F0D11CC158AA00C29B45 /* 5.jpg */; };
+		9742F0D81CC158AA00C29B45 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9742F0D21CC158AA00C29B45 /* 4.jpg */; };
+		9742F0D91CC158AA00C29B45 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9742F0D31CC158AA00C29B45 /* 2.jpg */; };
+		9742F0DA1CC158AA00C29B45 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9742F0D41CC158AA00C29B45 /* 3.jpg */; };
+		9742F0DB1CC158AA00C29B45 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9742F0D51CC158AA00C29B45 /* 6.jpg */; };
+		9742F0DC1CC158AA00C29B45 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9742F0D61CC158AA00C29B45 /* 1.jpg */; };
 		97664F671CC14272007BF90D /* TVPhotoAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97664F641CC14272007BF90D /* TVPhotoAnimator.swift */; };
 		97664F681CC14272007BF90D /* TVPhotoViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97664F651CC14272007BF90D /* TVPhotoViewerController.swift */; };
-		97664F691CC14272007BF90D /* TVPhotoViewerWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97664F661CC14272007BF90D /* TVPhotoViewerWireframe.swift */; };
+		97664F691CC14272007BF90D /* TVPhotoViewerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97664F661CC14272007BF90D /* TVPhotoViewerPresenter.swift */; };
+		976B22881CC3CD1900C28FE5 /* TVPhotoViewerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976B22871CC3CD1900C28FE5 /* TVPhotoViewerViewModel.swift */; };
+		976B228C1CC3DE2100C28FE5 /* TVPhotoViewerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976B228B1CC3DE2100C28FE5 /* TVPhotoViewerExtension.swift */; };
+		976B228E1CC3DE9500C28FE5 /* TVPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976B228D1CC3DE9500C28FE5 /* TVPhotoModel.swift */; };
 		97DFC4BF1CC13AD800FD3374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFC4BE1CC13AD800FD3374 /* AppDelegate.swift */; };
 		97DFC4C11CC13AD800FD3374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFC4C01CC13AD800FD3374 /* ViewController.swift */; };
 		97DFC4C41CC13AD800FD3374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DFC4C21CC13AD800FD3374 /* Main.storyboard */; };
@@ -17,6 +27,7 @@
 		97DFC4C91CC13AD800FD3374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DFC4C71CC13AD800FD3374 /* LaunchScreen.storyboard */; };
 		97DFC4D41CC13AD800FD3374 /* TVPhotoViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFC4D31CC13AD800FD3374 /* TVPhotoViewerTests.swift */; };
 		97DFC4DF1CC13AD800FD3374 /* TVPhotoViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFC4DE1CC13AD800FD3374 /* TVPhotoViewerUITests.swift */; };
+		BF3466187BE835C535FD08E5 /* Pods_TVPhotoViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D615C48F3C076ABBF205F535 /* Pods_TVPhotoViewer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9742F0CE1CC1524F00C29B45 /* TVPhotoPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoPage.swift; sourceTree = "<group>"; };
+		9742F0D11CC158AA00C29B45 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		9742F0D21CC158AA00C29B45 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		9742F0D31CC158AA00C29B45 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		9742F0D41CC158AA00C29B45 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		9742F0D51CC158AA00C29B45 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		9742F0D61CC158AA00C29B45 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		97664F641CC14272007BF90D /* TVPhotoAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoAnimator.swift; sourceTree = "<group>"; };
 		97664F651CC14272007BF90D /* TVPhotoViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoViewerController.swift; sourceTree = "<group>"; };
-		97664F661CC14272007BF90D /* TVPhotoViewerWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoViewerWireframe.swift; sourceTree = "<group>"; };
+		97664F661CC14272007BF90D /* TVPhotoViewerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoViewerPresenter.swift; sourceTree = "<group>"; };
+		976B22871CC3CD1900C28FE5 /* TVPhotoViewerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoViewerViewModel.swift; sourceTree = "<group>"; };
+		976B228B1CC3DE2100C28FE5 /* TVPhotoViewerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoViewerExtension.swift; sourceTree = "<group>"; };
+		976B228D1CC3DE9500C28FE5 /* TVPhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVPhotoModel.swift; sourceTree = "<group>"; };
 		97DFC4BB1CC13AD800FD3374 /* TVPhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVPhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DFC4BE1CC13AD800FD3374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97DFC4C01CC13AD800FD3374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +74,9 @@
 		97DFC4DA1CC13AD800FD3374 /* TVPhotoViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVPhotoViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DFC4DE1CC13AD800FD3374 /* TVPhotoViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVPhotoViewerUITests.swift; sourceTree = "<group>"; };
 		97DFC4E01CC13AD800FD3374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54F6727D5A061A2C4A8B66F /* Pods-TVPhotoViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVPhotoViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVPhotoViewer/Pods-TVPhotoViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		D615C48F3C076ABBF205F535 /* Pods_TVPhotoViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVPhotoViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51DD9D0863C25DA3F58A447 /* Pods-TVPhotoViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVPhotoViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVPhotoViewer/Pods-TVPhotoViewer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3466187BE835C535FD08E5 /* Pods_TVPhotoViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +105,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		274B5F7F813DEDA4803B1BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D615C48F3C076ABBF205F535 /* Pods_TVPhotoViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554BA778F340FED86BAD7BC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D54F6727D5A061A2C4A8B66F /* Pods-TVPhotoViewer.debug.xcconfig */,
+				F51DD9D0863C25DA3F58A447 /* Pods-TVPhotoViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9742F0D01CC157E700C29B45 /* TestImages */ = {
+			isa = PBXGroup;
+			children = (
+				9742F0D11CC158AA00C29B45 /* 5.jpg */,
+				9742F0D21CC158AA00C29B45 /* 4.jpg */,
+				9742F0D31CC158AA00C29B45 /* 2.jpg */,
+				9742F0D41CC158AA00C29B45 /* 3.jpg */,
+				9742F0D51CC158AA00C29B45 /* 6.jpg */,
+				9742F0D61CC158AA00C29B45 /* 1.jpg */,
+			);
+			path = TestImages;
+			sourceTree = "<group>";
+		};
 		97664F631CC14272007BF90D /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				97664F641CC14272007BF90D /* TVPhotoAnimator.swift */,
+				97664F661CC14272007BF90D /* TVPhotoViewerPresenter.swift */,
 				97664F651CC14272007BF90D /* TVPhotoViewerController.swift */,
-				97664F661CC14272007BF90D /* TVPhotoViewerWireframe.swift */,
+				976B22871CC3CD1900C28FE5 /* TVPhotoViewerViewModel.swift */,
+				9742F0CE1CC1524F00C29B45 /* TVPhotoPage.swift */,
+				976B228D1CC3DE9500C28FE5 /* TVPhotoModel.swift */,
+				976B228B1CC3DE2100C28FE5 /* TVPhotoViewerExtension.swift */,
 			);
 			name = Source;
 			path = ../../Source;
@@ -98,6 +157,8 @@
 				97DFC4D21CC13AD800FD3374 /* TVPhotoViewerTests */,
 				97DFC4DD1CC13AD800FD3374 /* TVPhotoViewerUITests */,
 				97DFC4BC1CC13AD800FD3374 /* Products */,
+				554BA778F340FED86BAD7BC3 /* Pods */,
+				274B5F7F813DEDA4803B1BA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				97664F631CC14272007BF90D /* Source */,
+				9742F0D01CC157E700C29B45 /* TestImages */,
 				97DFC4BE1CC13AD800FD3374 /* AppDelegate.swift */,
 				97DFC4C01CC13AD800FD3374 /* ViewController.swift */,
 				97DFC4C21CC13AD800FD3374 /* Main.storyboard */,
@@ -150,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97DFC4E31CC13AD800FD3374 /* Build configuration list for PBXNativeTarget "TVPhotoViewer" */;
 			buildPhases = (
+				D77256C1F958AD009ECA2AAC /* Check Pods Manifest.lock */,
 				97DFC4B71CC13AD800FD3374 /* Sources */,
 				97DFC4B81CC13AD800FD3374 /* Frameworks */,
 				97DFC4B91CC13AD800FD3374 /* Resources */,
+				29172CF7F1D64CFD9F44153A /* Embed Pods Frameworks */,
+				967874E62A75A087F236AB40 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +312,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9742F0D91CC158AA00C29B45 /* 2.jpg in Resources */,
 				97DFC4C91CC13AD800FD3374 /* LaunchScreen.storyboard in Resources */,
+				9742F0DB1CC158AA00C29B45 /* 6.jpg in Resources */,
+				9742F0D71CC158AA00C29B45 /* 5.jpg in Resources */,
 				97DFC4C61CC13AD800FD3374 /* Assets.xcassets in Resources */,
+				9742F0D81CC158AA00C29B45 /* 4.jpg in Resources */,
+				9742F0DC1CC158AA00C29B45 /* 1.jpg in Resources */,
+				9742F0DA1CC158AA00C29B45 /* 3.jpg in Resources */,
 				97DFC4C41CC13AD800FD3374 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +340,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29172CF7F1D64CFD9F44153A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVPhotoViewer/Pods-TVPhotoViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		967874E62A75A087F236AB40 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVPhotoViewer/Pods-TVPhotoViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D77256C1F958AD009ECA2AAC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		97DFC4B71CC13AD800FD3374 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,8 +396,12 @@
 				97DFC4C11CC13AD800FD3374 /* ViewController.swift in Sources */,
 				97664F671CC14272007BF90D /* TVPhotoAnimator.swift in Sources */,
 				97664F681CC14272007BF90D /* TVPhotoViewerController.swift in Sources */,
+				9742F0CF1CC1524F00C29B45 /* TVPhotoPage.swift in Sources */,
 				97DFC4BF1CC13AD800FD3374 /* AppDelegate.swift in Sources */,
-				97664F691CC14272007BF90D /* TVPhotoViewerWireframe.swift in Sources */,
+				976B22881CC3CD1900C28FE5 /* TVPhotoViewerViewModel.swift in Sources */,
+				976B228C1CC3DE2100C28FE5 /* TVPhotoViewerExtension.swift in Sources */,
+				97664F691CC14272007BF90D /* TVPhotoViewerPresenter.swift in Sources */,
+				976B228E1CC3DE9500C28FE5 /* TVPhotoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +543,7 @@
 		};
 		97DFC4E41CC13AD800FD3374 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54F6727D5A061A2C4A8B66F /* Pods-TVPhotoViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TVPhotoViewer/Info.plist;
@@ -431,6 +555,7 @@
 		};
 		97DFC4E51CC13AD800FD3374 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51DD9D0863C25DA3F58A447 /* Pods-TVPhotoViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TVPhotoViewer/Info.plist;

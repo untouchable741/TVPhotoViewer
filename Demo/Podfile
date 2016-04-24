@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'TVPhotoViewer' do
+    pod 'Kingfisher', '~> 2.2.2'
+end
+
+target 'TVPhotoViewerTests' do
+
+end
+
+target 'TVPhotoViewerUITests' do
+
+end
+
