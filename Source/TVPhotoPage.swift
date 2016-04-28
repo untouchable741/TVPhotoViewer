@@ -268,15 +268,28 @@ extension TVPhotoPage {
         let ratio = photo.ratio
         var suitableSize = CGSizeZero
         let size = sizeInOrientation(orientation)
+        
+        suitableSize = size
+        
         if isLandscapeImage {
-            suitableSize.width = size.width
+            
             suitableSize.height = suitableSize.width / ratio
+            
+            if suitableSize.height > size.height {
+                suitableSize.height = size.height
+                suitableSize.width = suitableSize.height * ratio
+            }
         }
         else {
-            suitableSize.height = size.height
+            
             suitableSize.width = suitableSize.height * ratio
+            
+            if suitableSize.width > size.width {
+                suitableSize.width = size.width
+                suitableSize.height = suitableSize.width / ratio
+            }
         }
-    
+        
         return suitableSize
     }
     
