@@ -9,6 +9,16 @@
 import Foundation
 import UIKit
 
+//MARK: UIViewController 
+public extension UIViewController {
+    func sizeInOrientation(orientation : UIInterfaceOrientation) -> CGSize {
+        if UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication().statusBarOrientation) == UIInterfaceOrientationIsLandscape(orientation) {
+            return view.frame.size
+        }
+        return CGSizeMake(view.frame.size.height, view.frame.size.width)
+    }
+}
+
 //MARK: UIView
 public extension UIView {
     func takeSnapshot() -> UIImage {

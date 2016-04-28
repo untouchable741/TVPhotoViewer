@@ -72,12 +72,14 @@ extension TVPhotoViewerController {
     func setupView() {
         view = UIView(frame: UIScreen.mainScreen().bounds)
         view.backgroundColor = UIColor.clearColor()
+        view.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
     }
 
     func setupOverlayView() {
         overlayView = UIView(frame: UIScreen.mainScreen().bounds)
         overlayView.backgroundColor = UIColor.blackColor()
         overlayView.alpha = 0
+        overlayView.autoresizingMask = [.FlexibleWidth , .FlexibleHeight]
         view.addSubview(overlayView)
     }
     
@@ -92,6 +94,7 @@ extension TVPhotoViewerController {
         pageScrollView = pagesContainer.pageScrollView
         
         view.addSubview(pagesContainer.view)
+        addChildViewController(pagesContainer)
         
         loadInitPhotoPage()
     }

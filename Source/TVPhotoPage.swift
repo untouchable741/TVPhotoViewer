@@ -58,6 +58,11 @@ class TVPhotoPage : UIViewController {
     deinit {
         debugPrint("Deinit photo page")
     }
+    
+    override func willRotateToInterfaceOrientation(toInterfaceOrientation: UIInterfaceOrientation, duration: NSTimeInterval) {
+        updateCenterFrameForOrientation(toInterfaceOrientation)
+        moveImageToCenter()
+    }
 }
 
 //MARK: Setup
@@ -65,6 +70,7 @@ extension TVPhotoPage {
     
     func setupView() {
         view = UIView(frame: UIScreen.mainScreen().bounds)
+        view.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
     }
     
     func setupViewHierachy() {
@@ -96,13 +102,14 @@ extension TVPhotoPage {
         imageScrollView.minimumZoomScale = 1
         imageScrollView.delegate = self
         imageScrollView.backgroundColor = UIColor.clearColor()
+        imageScrollView.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
         view.addSubview(imageScrollView)
     }
     
     func loadThumbnailImage() {
         
         guard isInitialPhoto == false else {
-            self.updateCenterFrame()
+            updateCenterFrameForOrientation(UIApplication.sharedApplication().statusBarOrientation)
             startLoadOriginalImage()
             return
         }
@@ -126,13 +133,14 @@ extension TVPhotoPage {
     func updateThumbnailImage(thumbnailImage : Image) {
         photo.thumbnailImage = thumbnailImage
         self.imageView.image = thumbnailImage
-        updateCenterFrame()
+        updateCenterFrameForOrientation(UIApplication.sharedApplication().statusBarOrientation)
         moveImageToCenter()
     }
     
-    func updateCenterFrame() {
-        let suitableSize = getSuitableSizeForPhoto(photo)
-        centerFrame = CGRect.rectForCenterOfBound(imageScrollView.bounds, size: suitableSize)
+    func updateCenterFrameForOrientation(orientation : UIInterfaceOrientation) {
+        let photoSize = getSuitableSizeForPhoto(photo, orientation: orientation)
+        let viewSize = sizeInOrientation(orientation)
+        centerFrame = CGRect.rectForCenterOfBound(CGRectMake(0, 0, viewSize.width, viewSize.height), size: photoSize)
     }
 }
 
@@ -154,6 +162,10 @@ extension TVPhotoPage {
             self.moveImageToCenter()
             self.delegate?.updateOverlayViewAlpha(1)
         })
+    }
+    
+    func recompute() {
+        
     }
 }
 
@@ -251,19 +263,20 @@ extension TVPhotoPage : UIScrollViewDelegate {
 
 //MARK: Helper
 extension TVPhotoPage {
-    func getSuitableSizeForPhoto(photo : TVPhotoModel) -> CGSize {
-        let isLandscapeImage = photo.ratio > 0
+    func getSuitableSizeForPhoto(photo : TVPhotoModel, orientation : UIInterfaceOrientation) -> CGSize {
+        let isLandscapeImage = photo.ratio > 1
         let ratio = photo.ratio
         var suitableSize = CGSizeZero
+        let size = sizeInOrientation(orientation)
         if isLandscapeImage {
-            suitableSize.width = CGRectGetWidth(view.frame)
+            suitableSize.width = size.width
             suitableSize.height = suitableSize.width / ratio
         }
         else {
-            suitableSize.height = CGRectGetHeight(view.frame)
+            suitableSize.height = size.height
             suitableSize.width = suitableSize.height * ratio
         }
-        
+    
         return suitableSize
     }
     
