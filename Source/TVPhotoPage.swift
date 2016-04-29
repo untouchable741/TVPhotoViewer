@@ -163,10 +163,6 @@ extension TVPhotoPage {
             self.delegate?.updateOverlayViewAlpha(1)
         })
     }
-    
-    func recompute() {
-        
-    }
 }
 
 //MARK: Gesture
