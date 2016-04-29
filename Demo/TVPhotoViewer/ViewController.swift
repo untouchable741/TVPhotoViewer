@@ -67,7 +67,7 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource,
     }
 }
 
-extension ViewController : TVPhotoViewerDelegate , TVPhotoViewerDataSource {
+extension ViewController : TVPhotoViewerDataSource {
     func photoViewerNumberOfPhoto(photoViewer: TVPhotoViewerController) -> Int {
         return imagesCount
     }
@@ -76,17 +76,36 @@ extension ViewController : TVPhotoViewerDelegate , TVPhotoViewerDataSource {
         return NSURL(string: imageArray[index % 6])
     }
     
+    func photoViewerThumbnailUrlAtIndex(photoViewer: TVPhotoViewerController, index: Int) -> NSURL? {
+        return NSURL(string: imageArray[index % 6])
+    }
+}
+
+extension ViewController : TVPhotoViewerDelegate {
+    
+    func photoViewerDidPresentPhotoAtIndex(photoViewer: TVPhotoViewerController, presentingPhotoIndex: Int) {
+         collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: presentingPhotoIndex, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.CenteredVertically, animated: true)
+    }
+    
+    func photoViewerShouldPresentBuiltInActionSheetForPhotoAtIndex(photoViewer: TVPhotoViewerController, index: Int) -> Bool {
+        return true
+    }
+    
     func photoViewerImageViewForPhotoIndex(photoViewer: TVPhotoViewerController, index: Int) -> UIImageView? {
         let cell = collectionView.cellForItemAtIndexPath(NSIndexPath(forItem: index, inSection: 0))
         return cell?.viewWithTag(101) as? UIImageView
     }
     
-    func photoViewerThumbnailUrlAtIndex(photoViewer: TVPhotoViewerController, index: Int) -> NSURL? {
-        return NSURL(string: imageArray[index % 6])
+    func photoViewerActionsForPhotoAtIndex(photoViewer: TVPhotoViewerController, index: Int) -> [String]? {
+        return index % 2 == 0 ? ["Share" , "Save", "Email"] : nil
     }
     
-    func photoViewerDidPresentPhotoAtIndex(photoViewer: TVPhotoViewerController, presentingPhotoIndex: Int) {
-         collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: presentingPhotoIndex, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.CenteredVertically, animated: true)
+    func photoViewerShouldPresentCustomSheetForPhotoAtIndex(photoViewer: TVPhotoViewerController, index: Int) {
+        
+    }
+    
+    func photoViewerDidSelectActionForPhotoAtIndex(photoViewer: TVPhotoViewerController, action: String, index: Int) {
+        debugPrint("selected action \(action)")
     }
 }
 
