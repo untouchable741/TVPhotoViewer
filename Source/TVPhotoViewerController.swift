@@ -73,6 +73,12 @@ public class TVPhotoViewerController : UIViewController {
     deinit {
         debugPrint("Deinit TVPhotoViewController")
     }
+    
+    public override func willRotateToInterfaceOrientation(toInterfaceOrientation: UIInterfaceOrientation, duration: NSTimeInterval) {
+        //Workaround for fixing a weird bug when wrong view size returned after rotate
+        //We removed all cached page except current page to force re-calculate all pages
+        viewModel.cleanAllOtherCachedPage(currentIndex)
+    }
 }
 
 //MARK: Setup

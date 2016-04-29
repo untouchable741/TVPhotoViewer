@@ -33,4 +33,11 @@ class TVPhotoViewerViewModel {
             cachedPhotoPages.removeObjectForKey(index)
         }
     }
+    
+    func cleanAllOtherCachedPage(exceptionalIndex : Int) {
+        if let exceptionalPage = cachedPhotoPages.objectForKey(exceptionalIndex) {
+            cachedPhotoPages.removeAllObjects()
+            cachedPhotoPages.setObject(exceptionalPage, forKey: exceptionalIndex)
+        }
+    }
 }
